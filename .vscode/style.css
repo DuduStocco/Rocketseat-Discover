@@ -1,4 +1,4 @@
-body {
+/*body {
   /*
   background-image: url(../assets/assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -7,8 +7,8 @@ body {
   */
 
   /* background: color image repeat position/size */
-  background: url(/ds_wallpaper_dudustocco.png) no-repeat top center/cover;
-}
+  /*background: url(/ds_wallpaper_dudustocco.png) no-repeat top center/cover;
+/*} 
 
 /* Variáveis e Temas */
 
@@ -37,12 +37,6 @@ body {
   
 }
 
-html, body{
-height: 100%;
-margin: 0;
-padding: 0;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -55,6 +49,7 @@ body {
    background-size: cover;      /* Redimensiona para cobrir toda a tela */
    background-position: center; /* Centraliza a imagem */
    background-repeat: no-repeat;/* Evita repetição */
+   height: 100vh;
 }
 
 body * {
@@ -63,7 +58,7 @@ body * {
 }
 
 #container {
-    max-width: 360px;
+    max-width: 588px;
     width: 100%;
     margin: 56px auto 0px;
     padding: 0 24px;
@@ -173,4 +168,17 @@ ul li a:hover {
 #footer {
   padding: 24px 0;
   text-align: center;
+}
+
+/*media queries*/
+
+
+@media screen and (max-width: 700px) {
+  :root {
+  --bg-url: url(/ds_wallpaper_dudustocco.png); 
+  }
+  .light {
+    --bg-url: url(/bg-light.png);
+  }
+  
 }
