@@ -21,19 +21,19 @@
   --highlight-color: rgba(255, 255, 255, 0.2);
  
   /* Imagens */
-  --switch-bg-url: url(/fotos/assets/moon-stars.svg);
-  --bg-url: url(/ds_wallpaper_dudustocco.png);
+  --switch-bg-url: url("fotos/assets/moon-stars.svg");
+  --bg-url: url("ds_wallpaper_dudustocco.png");
 }
 
 
 .light {
   --text-color: black;
-  --bg-url: url(/bg-light.png);
+  --bg-url: url("bg-light.png");
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(/fotos/assets/sun.svg);
+  --switch-bg-url: url("fotos/assets/sun.svg");
   
 }
 
@@ -180,10 +180,10 @@ ul li a:hover {
 
 @media screen and (max-width: 700px) {
   :root {
-  --bg-url: url(/ds_wallpaper_dudustocco.png); 
+  --bg-url: url("ds_wallpaper_dudustocco.png"); 
   }
   .light {
-    --bg-url: url(/bg-light.png);
+    --bg-url: url("bg-light.png");
   }
   
 }
